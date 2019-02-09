@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <button class='startTest' type="primary" catchtap='startTap'>开始测试吧</button>
+</view>

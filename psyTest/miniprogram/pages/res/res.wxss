@@ -1,0 +1,27 @@
+/* pages/res/res.wxss */
+.showRes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  border-bottom: gray 1px solid;
+  width:95%;
+  /* text-align: center; */
+  
+}
+.showRes{
+  width:70%;
+  /* border: 1px solid; */
+}
+.option{
+ margin-top: 20rpx;
+ /* border: 1px solid red; */
+ width:100%;
+}
+.judge{
+  margin-top: 20rpx;
+  padding-top:10rpx;
+  width:80%;
+  border-top: gray 1px solid;
+}

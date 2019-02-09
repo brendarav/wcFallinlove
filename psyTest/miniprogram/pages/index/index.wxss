@@ -1,0 +1,14 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.startTest{
+    position: fixed;
+    margin-top: 300rpx;
+}

@@ -1,0 +1,23 @@
+<!--pages/test/test.wxml-->
+<view class='container'>
+<text class='title'>{{quesNum+1}}、{{quesDetail}}</text>
+
+<view class="optionContainer">
+  <view class='option' catchtap='tapOption' data-tap-opt='A'>
+    <text>{{optionA}}、{{answerA}}</text>
+    <view class="arrow"></view>
+  </view>
+  <view class='option' catchtap='tapOption' data-tap-opt='B'>
+    <text>{{optionB}}、{{answerB}}</text>
+    <view class="arrow"></view>
+  </view>
+  <view class='option' catchtap='tapOption' data-tap-opt='C'>
+    <text>{{optionC}}、{{answerC}}</text>
+    <view class="arrow"></view>
+  </view>
+
+
+
+</view>
+</view>
+

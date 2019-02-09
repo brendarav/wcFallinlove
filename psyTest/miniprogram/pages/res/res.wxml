@@ -1,0 +1,12 @@
+<!--pages/res/res.wxml-->
+
+<view class='container'>
+  <text class='title'>您的测试结果是：</text>
+  <view class='showRes'>
+    <text class='option'>选项1：{{ScoreA}}个</text>
+    <text class='option'>选项2：{{ScoreB}}个</text>
+    <text class='option'>选项3：{{ScoreC}}个</text>
+   
+  </view>
+   <text class='judge'>您属于：{{judge}}</text>
+</view>
